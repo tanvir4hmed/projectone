@@ -1,0 +1,164 @@
+ 911  source ~/.bashrc
+  912  java -version
+  913  ant -version
+  914  mvn -version
+  915  nano ~/.bashrc
+  916  source ~/.bashrc
+  917  mvn -version
+  918  ant -version
+  919  java -version
+  920  cd ~/.bashrc
+  921  cat ~/.bashrc
+  922  nano bashrc_modified.txt
+  923  mvn archetype:generate -DgroupId=com.bjitgroup.app -DartifactId=project-zero -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+  924  git init
+  925  git status
+  926  java -cp target/project-zero-1.0-SNAPSHOT.jar com.bjitgroup.app.App
+  927  cd project-zero/
+  928  java -cp target/project-zero-1.0-SNAPSHOT.jar com.bjitgroup.app.App
+  929  vn clean dependency:copy-dependencies package
+  930  mvn clean dependency:copy-dependencies package
+  931  mvn site
+  932  mvn compile
+  933  mvn test
+  934  mvn test-compile
+  935  mvn package
+  936  cd project-zero/
+  937  ls
+  938  mvn package
+  939  ls
+  940  java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+  941  java -cp target/my-app-1.0-SNAPSHOT.jar com.project-zero.app.App
+  942  ls
+  943  cd target/
+  944  ls
+  945  java -cp target/project-zero-1.0-SNAPSHOT.jar com.project-zero.app.App
+  946  cd ..
+  947  java -cp target/project-zero-1.0-SNAPSHOT.jar com.project-zero.app.App
+  948  ls
+  949  ls target/
+  950  java -cp target/project-zero-1.0-SNAPSHOT.jar com.project-zero.app.App
+  951  mvn archetype:generate -DgroupId=com.bjitgroup.app -DartifactId=project-one -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+  952  ls
+  953  mkdir project_zero
+  954  cd project_zero/
+  955  cd var/lib/jenkins/workspace/project_one_test_build/target/classes
+  956  cat var/lib/jenkins/workspace/project_one_test_build/target/classes
+  957  history | grep 'docker-devops_key.pem'
+  958  ssh -i docker-devops_key.pem ubuntu@52.149.229.179
+  959  nano docker-devops-history.txt
+  960  ssh -i scornfulPaella3M4e1koby.pem ubuntu@13.233.152.34
+  961  cd Documents/
+  962  ssh -i scornfulPaella3M4e1koby.pem ubuntu@13.233.152.34
+  963  sudo chmod 400 scornfulPaella3M4e1koby.pem 
+  964  ssh -i scornfulPaella3M4e1koby.pem ubuntu@13.233.152.34
+  965  mvn clean dependency:copy-dependencies package
+  966  java -cp target/project-one-1.0-SNAPSHOT.jar com.bjitgroup.app.App
+  967  cd project-one
+  968  mvn package
+  969  java -cp target/project-one-1.0-SNAPSHOT.jar com.njitgroup.app.App
+  970  java -cp target/project-one-1.0-SNAPSHOT.jar com.bjitgroup.app.App
+  971  git init
+  972  git status
+  973  git add .
+  974  git commit -m 'first commit of project-one'
+  975  git branch
+  976  git push -u origin master
+  977  git remote add origin https://github.com/tanvir4hmed/project-one.git
+  978  git push -u origin master
+  979  git clone https://bitbucket.org/ananthkannan/mypythonrepo.git
+  980  nano git_token_tanvir4hmed.txt
+  981  java -cp target/project-one-1.0-SNAPSHOT.jar com.njitgroup.app.App
+  982  java -cp target/project-one-1.0-SNAPSHOT.jar com.bjitgroup.app.App
+  983  docker ps
+  984  sudo docker ps
+  985  sudo docker images
+  986  sudo docker run -p 8000:80 maven
+  987  sudo docker ps
+  988  sudo docker ps -a
+  989  sudo docker describe 4bd18bd6e5e3
+  990  sudo docker container describe 4bd18bd6e5e3
+  991  sudo docker run -p 8000:80 maven
+  992  sudo docker run -d -p 8000:80 maven
+  993  sudo docker ps
+  994  sudo docker ps -a
+  995  sudo docker build -t maven2 .
+  996  docker run -d -p 8001:5000 maven2
+  997  sudo docker run -d -p 8001:5000 maven2
+  998  docker ps
+  999  sudo docker ps
+ 1000  sudo docker run -it --rm -p 8888:8080 tomcat:9.0
+ 1001  git init
+ 1002  git status
+ 1003  git add .
+ 1004  git commit -m 'first commit'
+ 1005  git remote add origin https://github.com/tanvir4hmed/mypythonapp.git
+ 1006  git push -u origin master
+ 1007  history | grep 'java'
+ 1008  source ~/.bashrc
+ 1009  mvn -version
+ 1010  sudo docker ps
+ 1011  sudo docker run -p 9001:8080 maven
+ 1012  docker ps
+ 1013  sudo docker ps
+ 1014  sudo docker run -d -p 9001:8080 maven
+ 1015  sudo docker ps
+ 1016  sudo docker run -p 9001:8080 maven
+ 1017  sudo docker run -d -p 9001:8080 maven
+ 1018  sudo docker ps
+ 1019  docker cp /target/project-one-1.0-SNAPSHOT.jar 8366597c09a1:/usr/local/tomcat/webapps/
+ 1020  sudo docker cp /target/project-one-1.0-SNAPSHOT.jar 8366597c09a1:/usr/local/tomcat/webapps/
+ 1021  sudo docker cp target/project-one-1.0-SNAPSHOT.jar 8366597c09a1:/usr/local/tomcat/webapps/
+ 1022  sudo usermod -a -G docker jenkins
+ 1023  docker ps
+ 1024  sudo service jenkins restart
+ 1025  ls var/lib/jenkins/workspace/0.project_one_pipeline/
+ 1026  ls /var/lib/jenkins/workspace/0.project_one_pipeline/
+ 1027  docker ps
+ 1028  sudo docker ps
+ 1029  sudo docker exec -it 8366597c09a1 -sh
+ 1030  sudo docker exec -it 8366597c09a1 bin/bash
+ 1031  sudo docker exec -it 8366597c09a1 bash
+ 1032  ls
+ 1033  ls src/
+ 1034  ls src/main/webapp/
+ 1035  mvn clean packages
+ 1036  mvn clean package
+ 1037  java -cp target/javawebapp.war com.javawebapp.app.App
+ 1038  java -cp target/javawebapp.war com.bjitgroup.app.App
+ 1039  java -cp target/javawebapp.war javawebapp.App
+ 1040  ls
+ 1041  ls target/
+ 1042  java -jar target/javawebapp.war 
+ 1043  java -war target/javawebapp.war 
+ 1044  cd target/
+ 1045  java -jar javawebapp.war 
+ 1046  cd ..
+ 1047  mvn clean package
+ 1048  java -jar target/javawebapp.war 
+ 1049  mvn package
+ 1050  java -jar target/javawebapp.war 
+ 1051  mvn clean package
+ 1052  mvn package
+ 1053  mvn clean package
+ 1054  java -jar target/javawebapp.war 
+ 1055  java -jar target/javawebapp.war
+ 1056  java -war target/javawebapp.war
+ 1057  mvn tomcat7:run
+ 1058  mvn tomcat10:run
+ 1059  mvn tomcat7:run
+ 1060  mvn clean package
+ 1061  sudo docker build -t javawebapp .
+ 1062  docker images
+ 1063  sudo docker images
+ 1064  sudo docker run -d -p 9000:8000 javawebapp
+ 1065  docker ps
+ 1066  sudo docker ps
+ 1067  sudo docker exec -it 4e5b4bfe5924 sh
+ 1068  ls
+ 1069  java -jar target/javawebapp.war 
+ 1070  java -cp target/javawebapp.war javawebapp.App
+ 1071  sudo docker build -t javawebapp .
+ 1072  sudo docker images
+ 1073  sudo docker run -it -rm -p 9000:8080 javawebapp
+ 1074  sudo docker run -it --rm -p 9000:8080 javawebapp
